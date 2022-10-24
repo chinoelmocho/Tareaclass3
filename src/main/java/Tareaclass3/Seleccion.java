@@ -14,6 +14,7 @@ public class Seleccion {
     String pais;
     String jugador;
     int participacionEnElMundial;
+    String Tecnico;
     
  public String obtienePais(){
     var retorno="Desconocido";

@@ -14,5 +14,11 @@ public class Jugador {
     String posicion;
     Seleccion equipo;
     
+    public String getInfo(){
+     return "EL nombre es "+this.nombre+"y nacio el dia: "+this.fechadeNacimeinto +"Esta en en equipo: "+this.equipo.pais; 
+    
+    }
+    
+    
     
 }
